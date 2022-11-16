@@ -1,1 +1,149 @@
 /* Стилизация кнопки */
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.button__primary {
+    height: 48px;
+    min-width: 189px;
+    background-color: #4263EB;
+    border: 0;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.button__primary:hover {
+    cursor: pointer;
+    background-color: #2342C0;
+    transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
+}
+
+.button__primary_hover {
+    height: 48px;
+    min-width: 189px;
+    border: 0;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #2342C0;
+    transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
+}
+
+.button__primary_disabled {
+    height: 48px;
+    min-width: 189px;
+    background-color: #4263EB;
+    opacity: 0.5;
+    border: 0;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.button__secondary {
+    height: 48px;
+    min-width: 189px;
+    background-color: #7048E8;
+    border: 0;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.button__secondary:hover {
+    cursor: pointer;
+    background-color: #5028C6;
+    ;
+    transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
+}
+
+.button__secondary_hover {
+    height: 48px;
+    min-width: 189px;
+    border: 0;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: #5028C6;
+    transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
+}
+
+.button__secondary_disabled {
+    height: 48px;
+    min-width: 189px;
+    background-color: #7048E8;
+    opacity: 0.5;
+    border: 0;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.button__alternate {
+    height: 48px;
+    min-width: 189px;
+    background-color: #FFFFFF;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #495057;
+}
+
+.button__alternate:hover {
+    cursor: pointer;
+    border: 1px solid #212429;
+    transition: opacity 200ms ease-in-out, border 200ms ease-in-out;
+}
+
+.button__alternate_hover {
+    height: 48px;
+    min-width: 189px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #495057;
+    cursor: pointer;
+    border: 1px solid #212429;
+    transition: opacity 200ms ease-in-out, border 200ms ease-in-out;
+}
+
+.button__alternate_disabled {
+    height: 48px;
+    min-width: 189px;
+    background-color: #FFFFFF;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: #495057;
+    opacity: 0.3;
+}
