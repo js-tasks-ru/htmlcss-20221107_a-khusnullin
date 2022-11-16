@@ -1,0 +1,43 @@
+/* Стилизация аккордеона */
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+.accordion {
+    min-width: 730px;
+    /* width: 730px; */
+    background-color: white;
+    border: 1px solid #ACB5BD;
+    border-radius: 8px;
+}
+
+.accordion__summary {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #212429;
+    list-style: none;
+    margin: 24px auto 24px 32px;
+    cursor: pointer;
+}
+
+.accordion__summary::-webkit-details-marker {
+    /* нестандартный псевдоэлемент Google Chrome */
+    display: none;
+}
+
+.accordion__item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #495057;
+    padding: 0 32px;
+    margin-bottom: 8px;
+}
+
+.accordion__item:last-child {
+    padding-bottom: 32px;
+    margin-bottom: 0;
+}
